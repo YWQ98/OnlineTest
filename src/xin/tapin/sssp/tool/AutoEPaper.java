@@ -4,20 +4,20 @@ import java.util.ArrayList;
 
 public class AutoEPaper {
 	
-	public static void main(String[] args) {
-		ArrayList<Integer> arrayList = getArrayList(30, 2, 10);
-		for (Integer integer : arrayList) {
-			System.out.println(integer);
-		}
-		int gettotalPoints1 = gettotalPoints1(arrayList);
-		System.out.println(gettotalPoints1);
-		System.out.println(arrayList.size());
+//	public static void main(String[] args) {
+//		ArrayList<Integer> arrayList = getArrayList(34, 12, 2);
+//		for (Integer integer : arrayList) {
+//			System.out.println(integer);
+//		}
+//		int gettotalPoints1 = gettotalPoints1(arrayList);
+//		System.out.println(gettotalPoints1);
+//		System.out.println(arrayList.size());
 //		boolean listEQTotalPoints = listEQTotalPoints(11, 10);
 //		System.out.println(listEQTotalPoints);
 //		Double double1=(double) 10/3;
 //		System.out.println(double1);
 //		System.out.println(Math.random()*4+1);
-	}
+//	}
 	
 
 	public static ArrayList<Integer> getArrayList(int totalPoints,int num,
@@ -28,11 +28,13 @@ public class AutoEPaper {
 			list.add(Integer.valueOf(lowest));
 		}
 //		tallest+=1;
-		boolean listEQTotalPoints = listEQTotalPoints(gettotalPoints1(list), totalPoints);
+		int gettotalPoints1 = gettotalPoints1(list);
+		boolean listEQTotalPoints = listEQTotalPoints(gettotalPoints1, totalPoints);
 		for (; !listEQTotalPoints; ) {//随机在加分
 			int local=(int)(Math.random()*list.size());
 			list.set(local, list.get(local)+1);
-			listEQTotalPoints=listEQTotalPoints(gettotalPoints1(list), totalPoints);
+			gettotalPoints1+=1;
+			listEQTotalPoints=listEQTotalPoints(gettotalPoints1, totalPoints);
 		}
 		
 		
