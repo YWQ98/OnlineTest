@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class AutoEPaper {
 	
 //	public static void main(String[] args) {
-//		ArrayList<Integer> arrayList = getArrayList(34, 12, 2);
+//		ArrayList<Integer> arrayList = getArrayList(30, 2, 10);
 //		for (Integer integer : arrayList) {
 //			System.out.println(integer);
 //		}
