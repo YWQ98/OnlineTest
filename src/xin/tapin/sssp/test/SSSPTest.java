@@ -91,13 +91,13 @@ public class SSSPTest {
 	
 	@Test
 	public void getBysName() {
-		Student bysName = studentService.getBysName("123");
-		if(bysName==null) 
-		{
-			System.out.println("null");
-		}else {
-			System.out.println("1");
-		}
+//		Student bysName = studentService.getBysName("123");
+//		if(bysName==null) 
+//		{
+//			System.out.println("null");
+//		}else {
+//			System.out.println("1");
+//		}
 	}
 	
 	@Test
