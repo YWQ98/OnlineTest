@@ -1,0 +1,64 @@
+
+#exam_top_main_panle{
+	position: relative;
+	background-color: black;
+}
+
+#exam_top_logo{
+	margin-top: 20px;
+	left:50px;
+	background-color: black;
+
+}
+#exam_top_bar{
+	margin-top: 20px;
+	right: 100px;
+	background-color: black;
+	text-align: right;
+}
+#dropdownMenu1{
+	color: white;
+}
+#tools{
+	margin-top: 40px;
+	width: 300px;
+	height: 400px;
+	background-color: black;
+	font-family: "黑体";
+	font-size: large;
+	color: white;
+	text-align: center;
+}
+#ttl{
+	color:red;
+	font-size: x-large;
+}
+#exam_panle{
+	
+	position: absolute;
+	top:100px;
+	width: 80%;
+	left: 320px;
+	display: inline-block;
+	font-size: x-large;
+	padding: 15px;
+}
+#exam_post{
+	color: white;
+	font-family: "黑体";
+	font-size: x-large;
+	margin-top: 50px;
+	margin-left: 600px;
+	width: 170px;
+	height: 50px;
+	border-radius: 8px;
+	background-color: crimson;
+	
+}
+.type{
+	font-size: large;
+	color:red;
+}
+.items{
+	color:#46B8DA;
+}

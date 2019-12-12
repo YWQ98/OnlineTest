@@ -1,0 +1,266 @@
+
+#teach_top_main_panle{
+	position: relative;
+	background-color: #000000;
+}
+
+#teach_top_logo{
+	margin-top: 20px;
+	left:50px;
+	background-color: black;
+
+}
+#teach_top_bar{
+	margin-top: 20px;
+	right: 100px;
+	background-color: black;
+	text-align: right;
+}
+#dropdownMenu{
+	color: white;
+}
+.mask{
+	background: black; 
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	width: 100%; 
+	filter: alpha(opacity=30); 
+	opacity: 0.3; 
+	display: none; 
+	z-index: 2 
+}
+#tool{
+	margin-left: 50px;
+}
+.your_class{
+	float: left;
+	padding: 10px 10px;
+	
+}
+.your_class table tr:first-child{
+	
+	height: 170px;
+}
+.your_class table{
+	
+	width: 270px;
+	height: 270px;
+	border-radius: 3px;
+	padding: 3px;
+	box-shadow: 0px 0px 5px #000;
+	text-align: center;
+	font-size: 16px;
+	
+}
+.your_class a:link{
+	color: black;
+}
+.your_class a:visited{
+	color: black;
+}
+.your_class a:hover{
+	color: red;
+	text-decoration: none;
+}
+.your_class a:active{
+	color: black;
+}
+#add_class_btn{
+	width: 100px;
+	font-size: 18px;
+	margin-top: -50px;
+	float: right;
+	margin-right: 150px;
+}
+.add_class_panle{
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 48%;
+	margin-top: -180px;
+	margin-left: -150px;
+	z-index: 30;
+	background: #fff;
+	border: 1px solid ;
+	padding: 30px;
+	display: ;
+	text-align: left;
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px #000;
+}
+#ClassCode{
+	font-size: large;
+	color: red;
+	
+}
+
+
+
+#add_itembank_btn{
+		width: 100px;
+	font-size: 18px;
+	margin-top: -50px;
+	float: right;
+	margin-right: 150px;
+}
+
+
+.your_itembank{
+	float: left;
+	padding: 10px 10px;
+	
+}
+.your_itembank table tr:first-child{
+	
+	height: 170px;
+}
+.your_itembank table{
+	
+	width: 270px;
+	height: 270px;
+	border-radius: 3px;
+	padding: 3px;
+	box-shadow: 0px 0px 5px #000;
+	text-align: center;
+	font-size: 16px;
+	
+}
+.your_itembank a:link{
+	color: black;
+}
+.your_itembank a:visited{
+	color: black;
+}
+.your_itembank a:hover{
+	color: red;
+	text-decoration: none;
+}
+.your_itembank a:active{
+	color: black;
+}
+.add_itembank_panle{
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 48%;
+	margin-top: -180px;
+	margin-left: -150px;
+	z-index: 30;
+	background: #fff;
+	border: 1px solid ;
+	padding: 30px;
+	display: ;
+	text-align: left;
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px #000;
+}
+.add_paple_panle{
+	width: 100%;
+	
+	
+}
+#add_paple_tips{
+	text-align: center;
+}
+#paple_score{
+	font-size: 18px;
+	font-family: "黑体";
+	color: red;
+}
+.items{
+	font-family: "黑体";
+	font-size: 16px;
+	margin-top: 20px;
+}
+.paple{
+	margin-top:10px ;
+	border-radius: 3px;
+	padding: 3px;
+	line-height: 25px;
+	box-shadow: 0px 0px 5px #000;
+	height: 50px;
+	width: 50%;
+}
+.paple>table{
+	width: 100%;
+}
+#search_paper{
+	width: 30%;
+}
+#chose_item{
+	width: 45%;
+	border-right:2px solid;
+}
+#chose_items{
+	width: 50%;
+	
+	display: inline;
+	float: right;
+	position:absolute;
+top:240px;
+right:0px;
+}
+#X{
+	margin: 0 auto;
+
+}
+.unit{
+		
+	font-size: 16px;
+	margin-top: 15px;
+}
+.radio{
+	font-size: 18px;
+}
+ .multiple{
+	font-size: 18px;
+}
+.judge{
+	
+	font-size: 18px;
+}
+.shortanswer{
+	font-size: 18px;
+}
+#class_member{
+	width: 60%;
+	font-size: 20px;
+}
+.problem{
+	margin-top:10px ;
+	border-radius: 3px;
+	width: 70%;
+	line-height: 40px;
+	box-shadow: 0px 0px 5px #000;
+	height: 80px;
+	
+}
+.problem>table{
+	width: 100%;
+}
+#Correct_panle{
+	
+	width: 100%;
+	height: 800px;
+}
+.type{
+	font-size: large;
+	color:red;
+}
+.items{
+	color:#46B8DA;
+	font-family: "黑体";
+	font-size: X-large;
+}
+.j{
+	font-size:20px;
+	font-family: "黑体";
+}
+.student_answer{
+	font-size:18px;
+	font-weight: 800;
+}
+#item{
+	width: 10%;
+}

@@ -1,0 +1,71 @@
+
+#admin_top_main_panle{
+	position: relative;
+	background-color: #000000;
+}
+
+#admin_top_logo{
+	margin-top: 20px;
+	left:50px;
+	background-color: black;
+
+}
+#admin_top_bar{
+	margin-top: 20px;
+	right: 100px;
+	background-color: black;
+	text-align: right;
+}
+#dropdownMenu{
+	color: white;
+}
+.mask{
+	background: black; 
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	width: 100%; 
+	filter: alpha(opacity=30); 
+	opacity: 0.3; 
+	display: none; 
+	z-index: 2 
+}
+.admin_tool>table{
+	margin-top: 40px;
+	width: 300px;
+	height: 200px;
+	font-family: "黑体";
+	font-size: large;
+	text-align: center;
+}
+.admin_tool>table tr:nth-child(odd){
+	background-color: black;
+	color: white;
+}
+.admin_tool>table tr:first-child{
+	text-align: center;
+	font-family: "黑体";
+	color: white;
+	font-size: x-large;
+	background-color: black;
+}
+.dropdown{
+	 display:inline;
+}
+#batch{
+	margin-left: 50px;
+}
+#tool{
+	margin-left: 50px;
+}
+#search_data{
+	width: 50%;
+}
+#sp{
+	color: red;
+	font-size: large;
+	font-family: "黑体";
+}
+#altent{
+	color: red;
+}

@@ -1,0 +1,67 @@
+#ps_top_main_panle{
+	position: relative;
+	background-color: black;
+}
+
+#ps_top_logo{
+	margin-top: 20px;
+	left:50px;
+	background-color: black;
+
+}
+#name>a{
+	color: white;
+}
+#ps_top_bar{
+	margin-top: 20px;
+	right: 100px;
+	background-color: black;
+	text-align: right;
+}
+#tools>table{
+	margin-top: 40px;
+	width: 300px;
+	height: 200px;
+	font-family: "黑体";
+	font-size: large;
+	text-align: center;
+}
+#tools>table tr:nth-child(odd){
+	background-color: black;
+	color: white;
+}
+#tools>table tr:first-child{
+	text-align: center;
+	font-family: "黑体";
+	color: white;
+	font-size: x-large;
+	background-color: black;
+}
+#problem_panle{
+	position: absolute;
+	top:100px;
+	width: 80%;
+	left: 320px;
+	display: inline-block;
+}
+.problem{
+	margin-top:10px ;
+	border-radius: 3px;
+	padding: 3px;
+	line-height: 25px;
+	box-shadow: 0px 0px 5px #000;
+	height: 50px;
+	
+}
+.problem>table{
+	width: 100%;
+}
+.score{
+	color: red;
+}
+.sp2{
+	color: red;
+}
+#dropdownMenu1{
+	color: white;
+}
