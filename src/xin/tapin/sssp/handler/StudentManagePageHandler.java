@@ -328,7 +328,7 @@ public class StudentManagePageHandler {
 							byspdid.setScore(Math.round(getqItem.getQiscore()*similarityRatio));
 						}
 					}
-					System.out.println(byspdid);
+//					System.out.println(byspdid);
 					stuPaperDetailService.save(byspdid);
 				}
 				
