@@ -86,14 +86,14 @@
 					<font color="white" size="6">9999位注册用户</font>
 				</p>
 			</div>
-			<div id="botton">
+			<!-- <div id="botton">
 				<button type="button" class="btn btn-info" style="width: 150px;"><a href="problem_set.html"><font size="6">进入</font></a></button>
-			</div>
+			</div> -->
 		</div>
 
-		<div id="message">
+		<!-- <div id="message">
 			<button type="button" class="btn btn-default">查看公告</button>
-		</div>
+		</div> -->
 
 		<footer class="btn" id="footer">
 			<div id="footer_panle">

@@ -63,8 +63,10 @@ public class StringCompare
 //    public static void main(String[] args)
 //    {
 //        StringCompare lt = new StringCompare();
-//        String str = "我就是是C语言";
-//        String target = "言语C";
+//        String str = "abc";
+//        String target = "ABbf";
+//        System.out.println(lt.getSimilarityRatio(str, target));
 //        System.out.println("similarityRatio=" + Math.round(lt.getSimilarityRatio(str, target)*10));
 //    }
 }
+
