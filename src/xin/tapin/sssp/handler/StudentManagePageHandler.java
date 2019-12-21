@@ -338,7 +338,7 @@ public class StudentManagePageHandler {
 					stuPaper.setSpscore(stuPaper.getSpscore()+stuPaperDetail.getScore());
 				}
 				stuPaperService.save(stuPaper);
-				System.out.println(data+"==="+spid);
+//				System.out.println(data+"==="+spid);
 				ITJson="[{\"a\":\"1\"}]";
 			}
 		}
